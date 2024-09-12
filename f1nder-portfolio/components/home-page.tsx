@@ -69,7 +69,7 @@ export function HomePage() {
     <div className="flex flex-col min-h-screen bg-gray-900 text-white">
       <header className="fixed top-0 left-0 right-0 px-4 lg:px-6 h-16 flex items-center bg-gray-900 bg-opacity-80 backdrop-blur-md z-50 ">
         <Link className="flex items-center justify-center" href="#">
-          <span className="text-2xl font-bold text-white">F1nder Software</span>
+          <span className="text-2xl font-bold text-white">Apala</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:text-blue-400" href="#services">
@@ -202,7 +202,7 @@ export function HomePage() {
                 animate="visible"
                 variants={fadeInLeft}
               >
-                Tech Up Together
+                Apala
               </motion.h1>
               <motion.p 
                 className="max-w-[600px] text-gray-200 md:text-xl"
@@ -211,7 +211,7 @@ export function HomePage() {
                 variants={fadeInLeft}
                 transition={{ delay: 0.2 }}
               >
-                Onde pessoas e tecnologia se completam. Transformando ideias em software desde 2010.
+                
               </motion.p>
               <motion.div 
                 className="space-x-4"
@@ -220,7 +220,6 @@ export function HomePage() {
                 variants={fadeInLeft}
                 transition={{ delay: 0.4 }}
               >
-                <Button className="bg-white text-blue-600 hover:bg-gray-200">Conheça a F1nder</Button>
               </motion.div>
             </div>
           </div>
@@ -259,11 +258,10 @@ export function HomePage() {
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
   <div className="container mx-auto px-4 md:px-6">
     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12">
-      Digital Business Company
+      Companhia de negócios digitais
     </h2>
     <p className="text-gray-400 text-center max-w-[800px] mx-auto">
-      Desde 2010, promovemos a revolução digital em diferentes negócios pelo mundo através da tecnologia e de pessoas
-      altamente capacitadas. Entregamos a nossos clientes resultados de valor e promovemos sua evolução.
+    Estamos focados em ajudar negócios a se adaptarem à era digital. Utilizamos tecnologia atual e uma equipe comprometida para gerar resultados que fazem a diferença. Nosso objetivo é apoiar nossos clientes em suas jornadas de crescimento e transformação.
     </p>
   </div>
 </section>
@@ -284,23 +282,23 @@ export function HomePage() {
         <h3 className="text-lg font-semibold mb-4">Localização</h3>
         <p className="flex items-center">
           <MapPin className="w-5 h-5 mr-2" />
-          Av. Tecnologia, 1234 - São Paulo, SP
+          Russas CE - Brasil
         </p>
       </div>
       <div>
         <h3 className="text-lg font-semibold mb-4">Contato</h3>
         <p className="flex items-center mb-2">
           <Phone className="w-5 h-5 mr-2" />
-          (11) 1234-5678
+          (85) 98928-3104 
         </p>
         <p className="flex items-center">
           <Mail className="w-5 h-5 mr-2" />
-          contato@findersoftware.com
+          faleconoscoapala@gmail.com
         </p>
       </div>
     </div>
     <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-      <p className="text-sm">© 2023 F1nder Software. Todos os direitos reservados.</p>
+      <p className="text-sm">© 2023 Apala. Todos os direitos reservados.</p>
     </div>
   </div>
 </footer>
